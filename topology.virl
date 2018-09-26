@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <topology xmlns="http://www.cisco.com/VIRL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="0.95" xsi:schemaLocation="http://www.cisco.com/VIRL https://raw.github.com/CiscoVIRL/schema/v0.95/virl.xsd">
     <extensions>
+        <entry key="management_lxc" type="Boolean">false</entry>
         <entry key="management_network" type="String">flat</entry>
         <entry key="AutoNetkit.ipv4_infra_prefix" type="String">16</entry>
         <entry key="AutoNetkit.enable_routing" type="Boolean">false</entry>
