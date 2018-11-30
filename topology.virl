@@ -55,7 +55,7 @@ line vty 0 4
 line con 0
  password cisco
 !
-no cdp run
+cdp run
 !
 !
 interface Loopback0
@@ -159,7 +159,7 @@ line vty 0 4
 line con 0
  password cisco
 !
-no cdp run
+cdp run
 !
 !
 interface Loopback0
@@ -184,21 +184,21 @@ interface GigabitEthernet0/1
 !
 interface GigabitEthernet0/2
   description to iosv-3
-  ip address 10.0.0.41 255.255.255.252
+  ip address 10.0.0.21 255.255.255.252
   duplex full
   speed auto
   no shutdown
 !
 interface GigabitEthernet0/3
   description to iosv-4
-  ip address 10.0.0.37 255.255.255.252
+  ip address 10.0.0.25 255.255.255.252
   duplex full
   speed auto
   no shutdown
 !
 interface GigabitEthernet0/4
   description to iosv-5
-  ip address 10.0.0.45 255.255.255.252
+  ip address 10.0.0.29 255.255.255.252
   duplex full
   speed auto
   no shutdown
@@ -263,7 +263,7 @@ line vty 0 4
 line con 0
  password cisco
 !
-no cdp run
+cdp run
 !
 !
 interface Loopback0
@@ -288,21 +288,21 @@ interface GigabitEthernet0/1
 !
 interface GigabitEthernet0/2
   description to iosv-2
-  ip address 10.0.0.38 255.255.255.252
+  ip address 10.0.0.22 255.255.255.252
   duplex full
   speed auto
   no shutdown
 !
 interface GigabitEthernet0/3
   description to iosv-4
-  ip address 10.0.0.42 255.255.255.252
+  ip address 10.0.0.33 255.255.255.252
   duplex full
   speed auto
   no shutdown
 !
 interface GigabitEthernet0/4
   description to iosv-5
-  ip address 10.0.0.69 255.255.255.252
+  ip address 10.0.0.37 255.255.255.252
   duplex full
   speed auto
   no shutdown
@@ -367,7 +367,7 @@ line vty 0 4
 line con 0
  password cisco
 !
-no cdp run
+cdp run
 !
 !
 interface Loopback0
@@ -392,21 +392,21 @@ interface GigabitEthernet0/1
 !
 interface GigabitEthernet0/2
   description to iosv-2
-  ip address 10.0.0.46 255.255.255.252
+  ip address 10.0.0.26 255.255.255.252
   duplex full
   speed auto
   no shutdown
 !
 interface GigabitEthernet0/3
   description to iosv-3
-  ip address 10.0.0.70 255.255.255.252
+  ip address 10.0.0.34 255.255.255.252
   duplex full
   speed auto
   no shutdown
 !
 interface GigabitEthernet0/4
   description to iosv-5
-  ip address 10.0.0.74 255.255.255.252
+  ip address 10.0.0.41 255.255.255.252
   duplex full
   speed auto
   no shutdown
@@ -471,7 +471,7 @@ line vty 0 4
 line con 0
  password cisco
 !
-no cdp run
+cdp run
 !
 !
 interface Loopback0
@@ -496,21 +496,21 @@ interface GigabitEthernet0/1
 !
 interface GigabitEthernet0/2
   description to iosv-2
-  ip address 10.0.0.50 255.255.255.252
+  ip address 10.0.0.30 255.255.255.252
   duplex full
   speed auto
   no shutdown
 !
 interface GigabitEthernet0/3
   description to iosv-3
-  ip address 10.0.0.78 255.255.255.252
+  ip address 10.0.0.38 255.255.255.252
   duplex full
   speed auto
   no shutdown
 !
 interface GigabitEthernet0/4
   description to iosv-4
-  ip address 10.0.0.98 255.255.255.252
+  ip address 10.0.0.42 255.255.255.252
   duplex full
   speed auto
   no shutdown
